@@ -1,0 +1,20 @@
+" encoding
+"language messages zh_CN.utf-8
+set fileencodings=gbk,utf-8,gb2312,gb18030,cp936
+set termencoding=gbk
+set encoding=utf-8
+set t_Co=256
+
+" windows size
+" set lines=40 columns=90
+
+" font and color scheme
+set guifont=Courier\ New\ 12
+colorscheme molokai
+
+" ctags
+set autochdir
+set tags=~/training/dtxy/dtxy/tags,~/training/dtxy/mudos/tags,tags
+
+" auto formatting
+" autocmd BufRead,BufWritePre *.h,*.c normal gg=G

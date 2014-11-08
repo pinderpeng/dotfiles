@@ -1,0 +1,20 @@
+" encoding
+language messages zh_CN.utf-8
+set fileencodings=gbk,utf-8,gb2312,gb18030,cp936
+set termencoding=utf-8
+set encoding=utf-8
+" set t_Co=256
+
+" windows size
+set lines=40 columns=90
+
+" font and color scheme
+set guifont=Courier\ New:h12
+colorscheme molokai
+
+" ctags
+set autochdir 
+set tags=E:/meterial/netease/training/dtxy/tags,tags
+
+" auto formatting
+autocmd BufRead,BufWritePre *.h,*.c normal gg=G
